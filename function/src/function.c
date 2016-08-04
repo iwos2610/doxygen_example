@@ -70,9 +70,9 @@ int function(void)
   */
 int init(void)
 {
-	int ret = 0;
+	int ret = 0；
 	
-	return ret;
+	return ret；
 }
 
 /**
