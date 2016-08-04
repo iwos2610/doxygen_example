@@ -34,17 +34,17 @@ extern "C" {
   * @brief  FUNC_ExpoTypeDef structure definition  
   */
 
-typedef struct
-{
-  uint32_t FUNC_Mode;                      /*!< Configures the ADC to operate in independent or
-                                               dual mode. 
-                                               This parameter can be a value of @ref ADC_mode */
-
-  FunctionalState FUNC_ScanConvMode;       /*!< Specifies whether the conversion is performed in
-                                               Scan (multichannels) or Single (one channel) mode.
-                                               This parameter can be set to ENABLE or DISABLE */
-
-}FUNC_ExpoTypeDef;
+//typedef struct
+//{
+//  uint32_t FUNC_Mode;                      /*!< Configures the ADC to operate in independent or
+//                                               dual mode. 
+//                                               This parameter can be a value of @ref ADC_mode */
+//
+//  FunctionalState FUNC_ScanConvMode;       /*!< Specifies whether the conversion is performed in
+//                                               Scan (multichannels) or Single (one channel) mode.
+//                                               This parameter can be set to ENABLE or DISABLE */
+//
+//}FUNC_ExpoTypeDef;
 
 /**
   * @}
